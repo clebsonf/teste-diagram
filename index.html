@@ -69,7 +69,7 @@
 					{
 						// Configuration example
 						iframe.contentWindow.postMessage(JSON.stringify({action: 'configure',
-							config: {defaultFonts: ["Humor Sans", "Helvetica", "Times New Roman"],enabledLibraries: ["c4"]}}), '*');
+							config: {defaultFonts: ["Humor Sans", "Helvetica", "Times New Roman"],enabledLibraries: ["c4"]}, libraries:"c4", defaultLibraries:"c4"}), '*');
 					}
 					else if (msg.event == 'init')
 					{
